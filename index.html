@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240818231432">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href=""><img src="img/Logo.svg" alt="Logo"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__content content-hero">
+						<div class="content-hero__body">
+							<div class="content-hero__subtitle">
+								<p>Доброго вечора, ми з України</p>
+							</div>
+							<h1 class="content-hero__title">Бандерогусь</h1>
+							<div class="content-hero__text text">
+								<p>Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!
+								</p>
+							</div>
+							<button data-popup="#form" type="submit" class="content-hero__button button">Запустити гуся</button>
+						</div>
+					</div>
+					<div class="hero__image">
+						<img src="img/Gus-1.svg" alt="Gus-1">
+					</div>
+				</div>
+			</section>
+			<section class="page__facts facts">
+				<div class="facts__container">
+					<div class="facts__header header-facts">
+						<div class="header-facts__image">
+							<img src="img/facts/Vector.svg" alt="Vector">
+						</div>
+						<h2 class="header-facts__title">Цікаві факти про бандерогусей</h2>
+						<div class="header-facts__text text">
+							<p>Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами</p>
+						</div>
+					</div>
+					<div class="facts__content content-facts">
+						<div class="content-facts__item item-facts">
+							<div class="item-facts__image">
+								<img src="img/facts/fact1.svg" alt="fact1">
+							</div>
+							<div class="item-facts__body">
+								<div class="item-facts__subtitle">
+									<p>Система навігації</p>
+								</div>
+								<div class="item-facts__text text">
+									<p>Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="content-facts__item item-facts">
+							<div class="item-facts__image">
+								<img src="img/facts/fact2.svg" alt="fact2">
+							</div>
+							<div class="item-facts__body">
+								<div class="item-facts__subtitle">
+									<p>Очі-тепловізори</p>
+								</div>
+								<div class="item-facts__text text">
+									<p>Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="content-facts__item item-facts">
+							<div class="item-facts__image">
+								<img src="img/facts/fact3.svg" alt="fact3">
+							</div>
+							<div class="item-facts__body">
+								<div class="item-facts__subtitle">
+									<p>Байракрила</p>
+								</div>
+								<div class="item-facts__text text">
+									<p>Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__header">
+							<div class="body-footer__image">
+								<img src="img/facts/Vector.svg" alt="Vector">
+							</div>
+							<div class="body-footer__title">
+								<p>Поділися, будь ласка, поштою</p>
+							</div>
+							<div class="body-footer__text text">
+								<p>та запиши гуся до бандерозагону</p>
+							</div>
+						</div>
+						<button data-popup="#form" type="submit" class="footer__button button">Поділися поштою</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="form" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+					</svg>
+				</button>
+				<div class="popup__text">
+					<div class="popup__body body-popup">
+						<div class="body-popup__header">
+							<div class="body-popup__image">
+								<img src="img/facts/Vector.svg" alt="Vector">
+							</div>
+							<div class="body-popup__title">
+								<p>Поділися, будь ласка, поштою</p>
+							</div>
+							<div class="body-popup__text text">
+								<p>та запиши гуся до бандерозагону</p>
+							</div>
+						</div>
+						<form action="" method="get" class="body-popup__form form-popup">
+							<div class="form-popup__items">
+								<div class="form-popup__item">
+									<label for="" class="form-popup__label">Ім'я</label>
+									<input autocomplete="off" type="text" name="form[name]" data-error="Ошибка" placeholder="" class="form-popup__input input">
+								</div>
+								<div class="form-popup__item">
+									<label for="" class="form-popup__label">Email</label>
+									<input autocomplete="off" type="email" name="form[name]" data-error="Ошибка" placeholder="" class="form-popup__input input">
+								</div>
+							</div>
+							<button type="submit" class="form-popup__button button">Запустити гуся</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240818231432"></script>
+</body>
+
+</html>
